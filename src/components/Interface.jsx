@@ -50,7 +50,7 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className="bg-white px-1 italic">Daksh Patil</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -67,14 +67,14 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        I help Businesses grow exponentially
         <br />
-        learn how to build 3D apps
+        through my Services
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
-        className={`bg-indigo-600 text-white py-4 px-8 
-      rounded-lg font-bold text-lg mt-4 md:mt-16`}
+        className={`bg-gray-800 text-white py-4 px-8 rounded-lg font-bold text-lg mt-4 md:mt-16`}
+
         initial={{
           opacity: 0,
           y: 25,
@@ -96,38 +96,34 @@ const AboutSection = (props) => {
 
 const skills = [
   {
-    title: "Threejs / React Three Fiber",
+    title: "React",
     level: 80,
   },
   {
-    title: "React / React Native",
-    level: 90,
+    title: "Flutter",
+    level: 60,
+  },
+  {
+    title: "Typescript",
+    level: 50,
   },
   {
     title: "Nodejs",
     level: 90,
   },
   {
-    title: "Typescript",
-    level: 60,
-  },
-  {
     title: "3D Modeling",
-    level: 40,
+    level: 95,
   },
 ];
 const languages = [
-  {
-    title: "🇫🇷 French",
-    level: 100,
-  },
   {
     title: "🇺🇸 English",
     level: 80,
   },
   {
-    title: "🇯🇵 Japanese",
-    level: 20,
+    title: "🇮🇳 Hindi",
+    level: 60,
   },
 ];
 
@@ -158,7 +154,7 @@ const SkillsSection = () => {
               </motion.h3>
               <div className="h-2 w-full bg-gray-200 rounded-full mt-2">
                 <motion.div
-                  className="h-full bg-indigo-500 rounded-full "
+                  className="h-full bg-red-500 rounded-full "
                   style={{ width: `${skill.level}%` }}
                   initial={{
                     scaleX: 0,
@@ -204,7 +200,7 @@ const SkillsSection = () => {
                 </motion.h3>
                 <div className="h-2 w-full bg-gray-200 rounded-full mt-2">
                   <motion.div
-                    className="h-full bg-indigo-500 rounded-full "
+                    className="h-full bg-red-500 rounded-full "
                     style={{ width: `${lng.level}%` }}
                     initial={{
                       scaleX: 0,
@@ -245,14 +241,14 @@ const ProjectsSection = () => {
     <Section>
       <div className="flex w-full h-full gap-8 items-center justify-center">
         <button
-          className="hover:text-indigo-600 transition-colors"
+          className="hover:text-white transition-colors"
           onClick={previousProject}
         >
           ← Previous
         </button>
         <h2 className="text-3xl md:text-5xl font-bold">Projects</h2>
         <button
-          className="hover:text-indigo-600 transition-colors"
+          className="hover:text-white transition-colors"
           onClick={nextProject}
         >
           Next →
@@ -263,7 +259,7 @@ const ProjectsSection = () => {
 };
 
 const ContactSection = () => {
-  const [state, handleSubmit] = useForm("mayzgjbd");
+  const [state, handleSubmit] = useForm("mpzgnlkg");
   return (
     <Section>
       <h2 className="text-3xl md:text-5xl font-bold">Contact me</h2>
@@ -316,7 +312,7 @@ const ContactSection = () => {
             />
             <button
               disabled={state.submitting}
-              className="bg-indigo-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
+              className="bg-gray-800 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16 "
             >
               Submit
             </button>

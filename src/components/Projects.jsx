@@ -8,34 +8,34 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/wawatmos.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    title: "Metaverse MAD",
+    url: "https://metaverse-sage-psi.vercel.app/",
+    image: "projects/download.jpeg",
+    description: "Nextjs Project for a Metaverse",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
+    title: "Portfolio Website",
+    url: "",
     image: "projects/baking.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
+    description: "The Portfolio site you are surfing through was made with react and three fibre",
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
+    title: "Sports Academy",
+    url: "https://nrsportsacademy.in/",
     image: "projects/avatar.jpg",
     description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
   },
   {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/kanagame.jpg",
-    description: "Use React Three Fiber to create a 3D game",
+    title: "Ecommerce ",
+    url: "https://shivangiyadav.in/",
+    image: "projects/ecom.jpg",
+    description: "Ecommerce site for a Business",
   },
   {
     title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/loader.jpg",
-    description: "Create a loading screen for your r3f projects",
+    url: "",
+    image: "projects/game.jpg",
+    description: "Coming soon!",
   },
 ];
 
