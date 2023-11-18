@@ -35,7 +35,7 @@ export const projects = [
     title: "Loader",
     url: "",
     image: "projects/game.jpg",
-    description: "Coming soon!",
+    description: "Coming soon! A Web game",
   },
 ];
 
